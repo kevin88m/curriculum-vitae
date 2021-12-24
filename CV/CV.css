@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Oooh+Baby&display=swap');
+
+*
+{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Oooh Baby';
+}
+
+body 
+
+{
+    background: hsl(160, 2%, 75%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.contenu
+
+{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background: white;
+    margin: 55px;
+    display:grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0,0,0, 0.4);
+}
+
+.contenu .coteg
+{
+position: relative;
+background: hsl(180, 0%, 54%);
+padding: 40px;
+
+}
+.profile-ecrit
+
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 23px;
+    border-bottom: 10px double #dadada;
+
+}
+
+
+.profile-ecrit h2{
+
+    color:white;
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align:center;
+    font-weight: 600;
+    line-height: 1.3em;
+}
+.profile-ecrit h2 span{
+
+    font-size: 0.9em;
+    font-weight: 300;
+}
+.contacter-info ul{
+    position: relative;
+    padding: 15pt;
+    
+    
+}
+.contacter-info ul li{
+    position: relative;
+    list-style: none;
+    margin: 10px 0px;
+}
+
+.contacter-info ul li .icon {
+    display:inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: rgb(184, 236, 236);
+
+}
+
+.contacter-info ul li span {
+
+    color:white;
+    font-weight:bold;
+    font-size: 1em;
+}
+.contacter-d_s ul li{
+    position: relative;
+    list-style: none;
+    margin: 10px 0px;
+}
+
+
+.contacter-d_s li{
+
+    margin-bottom: 15px;
+
+}
+.contacter-d_s h5{
+
+    color:rgb(255, 177, 88);
+    font-weight:500;
+}
+
+.contacter-d_s h4{
+
+    color:rgb(22, 22, 21);
+    font-weight:500;
+    font-size: 1em;
+}
+
+.langue .percent{
+    position:relative;
+    width: 100%;
+    height:6px;
+    background:rgb(8, 8, 8);
+    display:block;
+    margin-top: 5px;
+    
+
+
+}
+ul {
+    list-style-type:upper-roman ;
+}
+
+    
+
+
+.langue .percent div {
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    height:100%;
+    background:rgb(255, 177, 88);;
+}
+
+
+
+
+.titre{
+        color:#fff;
+        text-transform: uppercase;
+        font-weight:600;
+        border-bottom: 10px double #dadada;
+        padding-bottom: 5%;
+        
+        }
+
+
+
+.profile-ecrit .imagebox{
+
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius:50%;
+    overflow:hidden;
+}
+.profile-ecrit .imagebox img
+
+{ 
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    object-position: 80% 100%;
+    object-fit: fill;
+   }
+
+.contenu .coted
+{
+position: relative;
+background:#fff3f3;
+padding: 40px;
+
+}
+
+.a-propos{
+    margin-bottom: 50px;
+}
+.a-propos:last-child{
+
+    margin-bottom: 0px;
+}
+
+.titre2 
+{
+    color:gray;
+    text-decoration: underline overline #eedad9;
+    text-transform:uppercase;
+    letter-spacing:1px;
+    margin-bottom: 10px;
+    font-family: Helvetica, sans-serif;
+}
+
+p 
+
+{  
+    margin-left: 2em;
+    color:black;
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 2px;
+    font-family:Verdana, sans-serif;
+}
+
+.annee-entreprise{
+
+    font-family:Verdana, sans-serif;
+
+}
+
+.a-propos .box{
+    display:flex;
+    flex-direction: row;
+    margin: 20px 0;
+}
+.a-propos .box .annee-entreprise
+{
+    min-width:150px;
+}
+.a-propos .box .annee-entreprise h5{
+    text-transform: uppercase;
+    color:rgb(255, 177, 88);
+    font-weight:600;
+}
+
+.a-propos .box .text h4
+{
+    text-transform: uppercase;
+    color:rgb(184, 236, 236);
+    font-size: 16px;
+}
+.comp .box{
+
+    position:relative;
+    width:100%;
+    display:grid;
+    grid-template-columns: 150px 1fr;
+    justify-content: center;
+    align-items: center;
+}
+.comp .box h4{
+    text-transform:uppercase;
+    color:grey;
+    font-weight: 500;
+
+
+}
+.comp .box  .percent{
+    position:relative;
+    width:100%;
+    height: 10px;
+    background:rgb(23, 24, 23);
+}
+
+.comp .box  .percent div{
+
+    position:absolute;
+    top:0;
+    left:0;
+    height:100%;
+    background:rgb(184, 236, 236); ;
+}
